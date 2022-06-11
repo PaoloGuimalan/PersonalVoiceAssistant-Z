@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Voice
+</name>
+</assembly>
+<members>
+<member name="T:Voice.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Voice.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Voice.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Voice.WebBrowserUpdater">
+ <summary>
+ Creates registry entry to allow standard WebBrowser control to operate at maximum compatibility instead of IE7
+ NOTE: the entry is specific to an application so must be done for any program that uses WebBrowser
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

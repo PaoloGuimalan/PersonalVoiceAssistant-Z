@@ -1,0 +1,13 @@
+C:\Users\acer\source\repos\Voice\Voice\bin\Release\Voice.exe.config
+C:\Users\acer\source\repos\Voice\Voice\bin\Release\Voice.exe
+C:\Users\acer\source\repos\Voice\Voice\bin\Release\Voice.pdb
+C:\Users\acer\source\repos\Voice\Voice\bin\Release\Voice.xml
+C:\Users\acer\source\repos\Voice\Voice\obj\Release\Voice.Form1.resources
+C:\Users\acer\source\repos\Voice\Voice\obj\Release\Voice.Form2.resources
+C:\Users\acer\source\repos\Voice\Voice\obj\Release\Voice.Form3.resources
+C:\Users\acer\source\repos\Voice\Voice\obj\Release\Voice.Resources.resources
+C:\Users\acer\source\repos\Voice\Voice\obj\Release\Voice.vbproj.GenerateResource.cache
+C:\Users\acer\source\repos\Voice\Voice\obj\Release\Voice.vbproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Voice\Voice\obj\Release\Voice.exe
+C:\Users\acer\source\repos\Voice\Voice\obj\Release\Voice.xml
+C:\Users\acer\source\repos\Voice\Voice\obj\Release\Voice.pdb

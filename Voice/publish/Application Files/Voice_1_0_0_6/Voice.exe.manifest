@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Voice.exe" version="1.0.0.6" publicKeyToken="a0cdcb01c67de9f7" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Z.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Voice" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Voice.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="4988280">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>02FemIMUOJ0B3vMP62rh37pXY1ylD58dJeBNfcbCkYk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="591736">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vXgL8O3AegGuOBvdh0qH8BQ6x9HTpcdL/4cNT0avJYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="356352">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.113.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ek3elItXO1qSyx9joiAQBuYeokEH2WaKNu+jeOjUjwg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.EF6.dll" size="184832">
+      <assemblyIdentity name="System.Data.SQLite.EF6" version="1.0.113.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mDNmk8UNv/8nOsmTak7bSPHytBVwn34x3HI0GmNp0dY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.Linq.dll" size="184832">
+      <assemblyIdentity name="System.Data.SQLite.Linq" version="1.0.113.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FgNh5kGL7CdxjMq6Fh06kH0RNeGv2+bxyheBAshbenA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Voice.exe" size="497112">
+      <assemblyIdentity name="Voice" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>T+MqNBgeFINvUKerSFVAE/1vxoxtf4i223kDxGGYONo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Untitled-1.ico" size="111444">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sVh1TmWO7ijT/PD57fUZ5mj7DkVXTiDtFSDZy/fUlf8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Voice.exe.config" size="1530">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MD8u539BoS8oJrWNQIfeHlY1JEOle4ihuSHL1GgKyXg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Z.ico" size="115536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>N4c4Y5IpzeNXKqjl3cyXPcYAvAdZaLO2FlOHqRYqCXk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-67P8T3U\acer" issuerKeyHash="2f3c1a49a6e0a3df8fa8c81fcc301f4175b013d2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZRMoR5thLDzeo1OWUaBqHPOuvI4EAUxxVRbIqlIOL0Y=</DigestValue></Reference></SignedInfo><SignatureValue>1Xk7BW1duMBJybIw2I54nkQHLNvMO3qQbHHwoQsNzfMKXcRHNcfdLB7t0t9ajM1QtFvS2EKPT5M/k6tHFOhTaKwyqLEHPVZJeRh3V0Egji6pqyq/w+blepyHx2aHNlKZZU/FJeiBxHi/2gbIH88zQRzaLudbDHm1+AF1JesopWw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>9emublwjiOSr/q8sLVUzXGRc4cK8LMjFTt5nJupdW8MwvFfjAiwfA2gmMzfcKy7tU69W0ofzE52s9+88QNYbFhksm8KoMTgepnDOHb4m/br9LNDBXEb4EDTUNJkwJ7vXkebQZ1A6gQH5SfXhwEBRjgLDZq939XLHDXPPtpbOJa0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="462f0e52aac81655714c01048ebcaef31c6aa0519653a3de3c2c619b47281365" Description="" Url=""><as:assemblyIdentity name="Voice.exe" version="1.0.0.6" publicKeyToken="a0cdcb01c67de9f7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-67P8T3U\acer</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3hghGJ1oHX8rHd79D/AdFtVGWf0Cxpcrs3n55oG/2Ko=</DigestValue></Reference></SignedInfo><SignatureValue>4uzDklEwVG4BEZd7HNcWCzpDy4Q3/aWHaPZh37hpzAmpGV1/1GNWO0K0DwvEUScjNmp8OvnqEHo+z3tEcNHXhPX2hHl4EmnyOS4aDv8/Z7o0Lu4G8kpOxtke7SFnKkuPWTPPfc+IWOAlej7zgpiqN73Q0igyxmFkFMphUMjPTjo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9emublwjiOSr/q8sLVUzXGRc4cK8LMjFTt5nJupdW8MwvFfjAiwfA2gmMzfcKy7tU69W0ofzE52s9+88QNYbFhksm8KoMTgepnDOHb4m/br9LNDBXEb4EDTUNJkwJ7vXkebQZ1A6gQH5SfXhwEBRjgLDZq939XLHDXPPtpbOJa0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQZBcEV3cc26pLUuvNwrQGWTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADYANwBQADgAVAAzAFUAXABhAGMAZQByMB4XDTIxMDIxMjEwMDIxN1oXDTIyMDIxMjE2MDIxN1owMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQA2ADcAUAA4AFQAMwBVAFwAYQBjAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA9emublwjiOSr/q8sLVUzXGRc4cK8LMjFTt5nJupdW8MwvFfjAiwfA2gmMzfcKy7tU69W0ofzE52s9+88QNYbFhksm8KoMTgepnDOHb4m/br9LNDBXEb4EDTUNJkwJ7vXkebQZ1A6gQH5SfXhwEBRjgLDZq939XLHDXPPtpbOJa0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAZIacbmXA+CGq+pkNyndbswsPvCA0rTKPx6UVc8UVAHzf6VvkNNW0xSKs0uvSmwvbTjChdF0Nj+JHL3Wp6fvvM6cX7JZhrTStgb0g1wFqkLC+fl5QV8Eqb+GGma6oUsj4Gw7JM8q3D0tCq5X1o0GfATg4+R/w9vNwAWwHJjM6y0A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
